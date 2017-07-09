@@ -2532,3 +2532,9 @@ ol.comment-list {
     margin-top: 0px;
     font-size: 14px;
 }
+
+@media (max-width:1000px) {
+    .tech-img {
+        display: none;
+    }
+}
