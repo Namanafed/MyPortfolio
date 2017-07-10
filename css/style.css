@@ -2218,7 +2218,7 @@ ol.comment-list {
     position: absolute;
     text-align: center;
     bottom: 50px;
-    z-index: 1001;
+    z-index: 1000;
 }
 
 .scroll-down {
@@ -2278,6 +2278,7 @@ ol.comment-list {
 
 .tp-banner {
     background-color: #fff;
+    height: 100vh
 }
 
 .tp-banner ul {
