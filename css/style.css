@@ -345,7 +345,6 @@ h2.section-subheading.about {
 
 .titlebtn:hover {
     background-color: rgba(236, 233, 230, 0.6);
-    ;
 }
 
 .titlebtn .icons {
@@ -364,15 +363,71 @@ h2.section-subheading.about {
     padding-top: 2px;
 }
 
-.titlebtn .text {
+.titlebtn .text a {
     /*    margin-top: 5px;*/
-    padding-left: 10px;
-    padding-top: 13px;
+    padding: 13px 8px;
     text-transform: uppercase;
     font-size: 18px;
     float: left;
+    color: #fff
+}
+.titlebtn .text a:hover {
+    cursor: pointer;
+    color: white;
 }
 
+
+
+.custombtn {
+    margin-top: 10px;
+    background-color: #5c5c5c;
+    height: 50px;
+    border-radius: 3px;
+    width: 240px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.custombtn:hover {
+    background-color: rgba(236, 233, 230, 0.6);
+}
+
+.custombtn .icons {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.custombtn .icons i {
+    font-size: 24px;
+    line-height: 45px;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+.custombtn .text a {
+    /*    margin-top: 5px;*/
+    padding: 13px 8px;
+    text-transform: uppercase;
+    font-size: 18px;
+    float: left;
+    color: #fff
+}
+.custombtn .text a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
+
+/*
 .custombtn {
     background-color: #5c5c5c;
     height: 50px;
@@ -409,6 +464,20 @@ h2.section-subheading.about {
     font-size: 15px;
     float: left;
 }
+.custombtn .text a {
+        margin-top: 5px;
+    padding: 13px 8px;
+    text-transform: uppercase;
+    font-size: 16px;
+    float: left;
+    color: #000
+}
+.custombtn .text a:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+*/
 
 
 /** section skill start **/
