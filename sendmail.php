@@ -15,7 +15,7 @@ if ( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject'])
         'Reply-To: ' . $_POST["email"] . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
-    $success = mail( "themebucket@gmail.com", $_POST['subject'], $_POST['comments'], $headers );
+    $success = mail( "namana.fed@gmail.com", $_POST['subject'], $_POST['comments'], $headers );
     //  Replace with your email
 
     if ($success) {
