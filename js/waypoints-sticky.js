@@ -18,7 +18,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
     var defaults, wrap;
 
     defaults = {
-      wrapper: '<div class="sticky-wrapper" />',
+      wrapper: '',
       stuckClass: 'stuck'
     };
     wrap = function($elements, options) {
