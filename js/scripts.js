@@ -336,10 +336,10 @@ function initialize() {
     var image = 'img/map-marker.png';
     var myLatlng = new google.maps.LatLng(42.040046, -88.142391);
     var mapOptions = {
-        zoom: 15,
+        zoom: 14,
         scrollwheel: false,
         navigationControl: false,
-        mapTypeControl: false,
+        mapTypeControl: true,
         scaleControl: false,
         draggable: true,
         center: myLatlng
