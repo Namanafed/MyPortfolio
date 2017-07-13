@@ -241,14 +241,15 @@ h2.section-subheading {
     height: 70px;
     margin-top: 5px;
     line-height: 70px;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
     background-color: #5c5c5c;
     padding: 0px 20px;
     /*width:550px;*/
     border-radius: 4px;
     color: #fff;
-    letter-spacing: 1;
+    letter-spacing: 4;
 }
 
 h2.section-subheading.about {
@@ -264,11 +265,12 @@ h2.section-subheading.about {
     border-radius: 4px;
     color: #fff;
     letter-spacing: 1;
+    
 }
 
 .section-about h2 span {
     font-weight: 200;
-    letter-spacing: 1;
+    letter-spacing: 4;
 }
 
 .section-about .text {
@@ -492,15 +494,17 @@ h2.section-subheading.about {
 }
 
 .section-skill {
-    min-height: 570px;
+    max-height: 600px;
     background: #efeded url("../img/about-bg.jpg") no-repeat fixed center;
     background-size: cover;
     padding-top: 80px;
+    padding-bottom: 60px;
 }
 
 .section-subheading-nobg {
     margin-top: 25px;
     font-size: 19px;
+    font-family: 
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
@@ -1493,9 +1497,10 @@ p.address{
     top: 170px
 }
 
+/*
 .sprite-facebook {
-    background-position: 0 -118px;
-    width: 69px;
+     background-position: 0 -118px;
+     width: 169px;
     height: 68px;
     right: 15%;
     top: -80px;
@@ -1508,37 +1513,44 @@ p.address{
     right: 20%;
     top: 260px
 }
+*/
 
+/*
 .sprite-github {
-    background-position: 0 -354px;
+     background-position: 0 -354px;
     width: 69px;
     height: 68px;
     left: 20%;
     top: 250px
 }
+*/
 
 .sprite-google-plus {
     background-position: 0 -472px;
     width: 69px;
     height: 68px;
-    right: 16%;
+    left: 16%;
     top: 80px
 }
 
+/*
 .sprite-instagram {
-    background-position: 0 -590px;
+ background-position: 0 -590px;
     width: 69px;
     height: 68px;
     left: 20%;
     top: -80px;
 }
+*/
 
 .sprite-linkedin {
     background-position: 0 -708px;
+    background-size: 100% auto;
     width: 69px;
     height: 68px;
-    right: 7%;
-    top: 30px;
+    right: 16%;
+    top: 80px;
+    
 }
 
 .sprite-mail {
@@ -1579,8 +1591,9 @@ p.address{
     height: 119px;
     position: absolute;
     right: 22%;
-    top: -50px;
+    top: -10px;
     z-index: 101;
+    transform: rotate(20deg);
 }
 
 #slides {
